@@ -1,0 +1,15 @@
+current directory: /Users/masa/github/qiita-app-api/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+/Users/masa/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20171111-94788-x0ghlf.rb extconf.rb
+creating Makefile
+
+current directory: /Users/masa/github/qiita-app-api/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/masa/github/qiita-app-api/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/masa/github/qiita-app-api/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20171111-94788-1ya959t

@@ -1,0 +1,19 @@
+current directory: /Users/masa/github/qiita-app-api/vendor/bundle/ruby/2.4.0/gems/byebug-9.1.0/ext/byebug
+/Users/masa/.rbenv/versions/2.4.1/bin/ruby -r ./siteconf20171111-96252-1gssmem.rb extconf.rb
+creating Makefile
+
+current directory: /Users/masa/github/qiita-app-api/vendor/bundle/ruby/2.4.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/masa/github/qiita-app-api/vendor/bundle/ruby/2.4.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/masa/github/qiita-app-api/vendor/bundle/ruby/2.4.0/gems/byebug-9.1.0/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20171111-96252-11yy05a/byebug
