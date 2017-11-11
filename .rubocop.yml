@@ -1,0 +1,44 @@
+Rails:
+  Enabled: true
+AllCops:
+  Exclude:
+    - bin/*
+    - db/schema.rb
+    - db/migrate/*
+    - vendor/**/*
+    - node_modules/**/*
+    - Guardfile
+    - spec/**/*
+# 未使用の引数チェック
+Lint/UnusedBlockArgument:
+  Exclude:
+    - config/initializers/warden_hooks.rb
+# rubyファイルの中のブロック数チェック
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*
+# 1行の文字数(デフォルト：80)
+Metrics/LineLength:
+  Include:
+    - app/**/*
+# 標準出力が使用されているかチェック
+Rails/Output:
+  Exclude:
+    - db/seeds.rb
+# asciiコメント(日本語コメント)チェック
+Style/AsciiComments:
+  Enabled: false
+# ブロックコメントを使用しているかチェック
+Style/BlockComments:
+  Include:
+    - app/**/*
+# class, moduleなどにDocumentが記述されているかチェック
+Style/Documentation:
+  Enabled: false
+# magic commentのチェック
+Style/FrozenStringLiteralComment:
+  Enabled: false
+# 式展開のない文字列をシングルコーテーションで出力しているかチェック
+Style/StringLiterals:
+  Include:
+    - app/**/*
